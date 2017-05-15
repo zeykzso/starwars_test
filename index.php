@@ -41,7 +41,7 @@ if (isset($_REQUEST['logout'])) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
- 
+
         <!-- font awesome from BootstrapCDN -->
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
@@ -65,7 +65,7 @@ if (isset($_REQUEST['logout'])) {
               <?php if(!$userInfo): ?>
               <div class="login-box auth0-box before">
                 <img src="https://cdn.auth0.com/blog/app/star_warsapp.png" />
-                <p>Heard you don't want to migrate to PHP 7? Dare us!</p>
+                <p>Heard you donwanna to migrate to PHP 7? Dare us!</p>
                 <a class="btn btn-primary btn-login">SignIn</a>
               </div>
               <?php else: ?>
